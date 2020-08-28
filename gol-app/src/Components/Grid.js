@@ -1,5 +1,7 @@
 import React, { useState, useCallback, useRef } from "react";
-import  produce from 'immer'
+import produce from 'immer'
+
+/////////////////////////////////////////////////////////////////////////////////////////
 
 const numRows = 25
 const numCols = 25
@@ -14,6 +16,9 @@ const operations = [
   [1, 0],
   [-1, 0]
 ];
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
 
 
 function Grid() {
@@ -38,7 +43,6 @@ function Grid() {
   })
 
 
-
   // Check if the sim is running
   const [running, setRunning] = useState(false)
 
@@ -48,6 +52,8 @@ function Grid() {
   const [speed, setSpeed] = useState(1000)
   const speedRef = useRef(speed)
   speedRef.current = speed
+
+  /////////////////////////////////////////////////////////////////////////////////////////
 
 
   const runSim = useCallback(() => {
@@ -129,6 +135,9 @@ function Grid() {
     setGrid(newGrid)
   }
 
+  /////////////////////////////////////////////////////////////////////////////////////////
+
+
   return (
     <>
     <button 
@@ -195,5 +204,8 @@ function Grid() {
     </>
   )
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
 
 export default Grid;
