@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f19d4eda98e77f4af8268aff38b66c7e",
+    "revision": "2ff1e760a726938677beeb96c036e621",
     "url": "/CS1-BW-GoL/gol-app/index.html"
   },
   {
-    "revision": "d8ca4d6101c4899fd849",
+    "revision": "439b7be087a2050dfb52",
     "url": "/CS1-BW-GoL/gol-app/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CS1-BW-GoL/gol-app/static/js/2.5b12214d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d8ca4d6101c4899fd849",
-    "url": "/CS1-BW-GoL/gol-app/static/js/main.9672b388.chunk.js"
+    "revision": "439b7be087a2050dfb52",
+    "url": "/CS1-BW-GoL/gol-app/static/js/main.f4e6b397.chunk.js"
   },
   {
     "revision": "03769c84cdb8a199ef9e",
